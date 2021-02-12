@@ -8,7 +8,7 @@ Simple demo of Snakemake
 
 First create a virtual environment for the project.
 
-    conda create -n snakemake-demo python=3.7
+    conda create -n snakemake-demo python=3.6
     conda activate snakemake-demo
 
 Install `snakemake` for workflow management. 
