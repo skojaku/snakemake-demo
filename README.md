@@ -4,14 +4,11 @@ Simple demo of Snakemake
 
 # Set up
 
-### Anaconda
-
-First create a virtual environment for the project.
-
+```
     conda create -n snakemake-demo python=3.6
     conda activate snakemake-demo
-
-Install `snakemake` for workflow management. 
-
     conda install -y -c bioconda -c conda-forge snakemake
+    conda install -y -c conda-forge -c conda-forge snakemake pandas matplotlib numpy scikit-learn
+```
+    
 
