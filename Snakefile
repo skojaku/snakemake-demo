@@ -19,19 +19,8 @@ FEATURES = ["sepal_length","sepal_width","petal_length","petal_width"]
 
 
 #
-# Subeset of data
+# Rules
 #
-
-
-#
-# Rescaled data subset
-#
-
-
-#
-# Plot
-#
-
 rule get_iris_data:
     output:
         output_file = INPUT_DATA
