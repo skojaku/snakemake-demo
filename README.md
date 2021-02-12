@@ -4,7 +4,7 @@ Simple demo of Snakemake
 
 # Set up
 
-```
+```bash
     conda create -n snakemake-demo python=3.6
     conda activate snakemake-demo
     conda install -y -c bioconda -c conda-forge snakemake
